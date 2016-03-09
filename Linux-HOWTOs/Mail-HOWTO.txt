@@ -775,7 +775,7 @@ smtpd_recipient_restrictions    = permit_mynetworks,
 Et pour finir, prendre en compte la nouvelle configuration :
 
   # /etc/rc.d/rc.dovecot restart
-  # /etc/rc.d/rc.postfix reload
+  # /etc/rc.d/rc.postfix restart
 
 
 Exemple de configuration SMTP de Thunderbird :
